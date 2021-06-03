@@ -12,9 +12,18 @@ public class SecondClass {
 		lead.put("M10640002", "Ravinder Kumar");
 		lead.put("M10640003", "Ravinder Kumar");
 		lead.put("M10640001", "Ravinder Kumar");
+		
+		
+		lead.put("M1064005","Ravinder Kumar");
+		
+		
 
 		for (Entry<String, String> e : lead.entrySet()) {
 			System.out.println(e.getKey() + " : " + e.getValue());
 		}
+		
+		
+		lead.put("M1064005","Ravinder Kumar");
+		
 	}
 }
