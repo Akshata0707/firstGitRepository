@@ -21,9 +21,5 @@ public class SecondClass {
 		for (Entry<String, String> e : lead.entrySet()) {
 			System.out.println(e.getKey() + " : " + e.getValue());
 		}
-		
-		
-		lead.put("M1064005","Ravinder Kumar");
-		
 	}
 }
